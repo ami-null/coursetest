@@ -22,7 +22,7 @@ header:
 #    url: https://github.com/ami-null/intro-regression
 
 toc:
-  enabled: true
+  enabled: false
   position: right
 
 math:
