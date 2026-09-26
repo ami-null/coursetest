@@ -1,0 +1,52 @@
+title: Regression Analysis
+description: "A course on regression modeling, covering simple and multiple linear regression, OLS estimation, model assumptions and diagnostics, model selection, and applied extensions such as transformations, polynomial regression, and robust regression. The primary reference is Montgomery, Peck & Vining, Introduction to Linear Regression Analysis."
+show_title: true
+show_description: true
+theme_toggle: true
+
+remote_theme: ami-null/course-theme
+plugins:
+  - jekyll-remote-theme
+
+favicon: # e.g. /assets/favicon.ico
+
+font:
+  name: # leave blank for the browser's default font stack
+
+nav_links:
+  - text: GitHub
+    url: https://github.com/ami-null/intro-regression
+
+toc:
+  enabled: true
+  position: right
+
+math:
+  enabled: true
+  engine: katex
+  macros:
+    '\bX': '\mathbf{X}'
+    '\bx': '\mathbf{x}'
+    '\by': '\mathbf{y}'
+    '\bbeta': '\boldsymbol{\beta}'
+    '\Var': '\operatorname{Var}'
+    '\Cov': '\operatorname{Cov}'
+    '\SSR': '\mathit{SS}_{R}'
+    '\SSRes': '\mathit{SS}_{\mathrm{Res}}'
+    '\SST': '\mathit{SS}_{T}'
+    '\MSR': '\mathit{MS}_{R}'
+    '\MSRes': '\mathit{MS}_{\mathrm{Res}}'
+
+footer_links:
+  - title: Course
+    links:
+      - text: Course Outline
+        url: /#course-outline
+      - text: Lectures
+        url: /#lectures
+  - title: Connect
+    links:
+      - text: GitHub
+        url: https://github.com/ami-null/intro-regression
+
+copyright: "&copy; 2026 Shazid. All rights reserved."
