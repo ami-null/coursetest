@@ -4,7 +4,7 @@ show_title: true
 show_description: true
 theme_toggle: true
 
-remote_theme: ami-null/course-theme
+remote_theme: ami-null/simple-ghp-theme
 plugins:
   - jekyll-remote-theme
 
