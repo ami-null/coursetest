@@ -4,22 +4,22 @@ show_title: false
 show_description: false
 theme_toggle: true
 
+remote_theme: ami-null/simple-ghp-theme
+plugins:
+  - jekyll-remote-theme
+  
 header:
   floating: false   # false = plain full-width bar
   sticky: true      # false = scrolls away instead of staying pinned
 
-remote_theme: ami-null/simple-ghp-theme
-plugins:
-  - jekyll-remote-theme
+#favicon:
 
-favicon:
+#font:
+#  name:
 
-font:
-  name:
-
-nav_links:
-  - text: GitHub
-    url: https://github.com/ami-null/intro-regression
+#nav_links:
+#  - text: Course GitHub Repo
+#    url: https://github.com/ami-null/intro-regression
 
 toc:
   enabled: true
@@ -44,13 +44,11 @@ math:
 footer_links:
   - title: Course
     links:
-      - text: Course Outline
-        url: /#course-outline
-      - text: Lectures
-        url: /#lectures
+      - text: GitHub repo
+        url: https://github.com/ami-null/intro-regression
   - title: Connect
     links:
-      - text: GitHub
-        url: https://github.com/ami-null/intro-regression
+      - text: My GitHub Profile
+        url: https://github.com/ami-null/
 
 copyright: '&copy; 2026 Shazid. Licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>.'
