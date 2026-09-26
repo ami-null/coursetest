@@ -4,6 +4,10 @@ show_title: true
 show_description: true
 theme_toggle: true
 
+header:
+  floating: false   # false = plain full-width bar
+  sticky: true      # false = scrolls away instead of staying pinned
+
 remote_theme: ami-null/simple-ghp-theme
 plugins:
   - jekyll-remote-theme
